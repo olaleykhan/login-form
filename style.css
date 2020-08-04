@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    margin: 25px;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color:  hsl(0, 100%, 74%);
+}
+.btn{
+    font-size: 1.4rem;
+    background-color: hsl(248, 32%, 49%);
+    outline: none;
+    border: none;
+    
+    /* padding: 2.5vh 15vw; */
+    border-radius: 10px;
+}
+.error{
+    color: hsl(0, 100%, 74%) !important;
+    display: none;
+}
+
+#form-div{
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -3px #686666;
+}
+#terms{
+    color:hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+.green-btn{
+    background-color: hsl(154, 59%, 51%) !important;
+    height: 8vh;
+}
+.terms{
+    color: hsl(246, 25%, 77%);
+}
